@@ -89,7 +89,9 @@ class RealmDatabaseDriver(
             databaseDescriptor.realmConfiguration,
             table,
             start,
-            count
+            count,
+            order,
+            reverse
         )
         return DatabaseGetTableDataResponse(
             columns,
