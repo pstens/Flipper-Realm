@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 
-include ':sample', ':flipper-realm-android'
+include ':flipper-realm-android'
 rootProject.name='Flipper-Realm'
